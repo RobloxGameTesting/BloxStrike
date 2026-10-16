@@ -1,0 +1,1 @@
+return function(_: Vector3, _: Vector3) end

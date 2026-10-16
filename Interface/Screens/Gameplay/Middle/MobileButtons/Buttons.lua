@@ -1,0 +1,63 @@
+return {
+	GAMEPLAY_MOBILE_BUTTONS = {
+		"Shoot",
+		"Shop",
+		"ToggleScoreboard",
+		"Reload",
+		"Jump",
+		"ToggleWalk",
+		"Crouch",
+		"AlternativeAction",
+		"Drop",
+		"Interact",
+		"Inspect",
+		"SwapTeam",
+		"Menu",
+		"Ping",
+		"Chat"
+	},
+	SPECTATE_MOBILE_BUTTONS = { "SwapTeam", "Menu", "ToggleScoreboard", "Chat" },
+	BUTTONS_WITH_EXPLICIT_INPUT_ENDED = {
+		SwapTeam = true,
+		Inspect = true,
+		Crouch = true,
+		ToggleWalk = true,
+		Reload = true,
+		Shop = true,
+		ToggleScoreboard = true,
+		Menu = true,
+		Drop = true,
+		Ping = true,
+		Chat = true,
+		VIP = true
+	},
+	BUTTONS_EXCLUDED_FROM_CLEARING = {
+		SwapTeam = true,
+		Interact = true,
+		Inspect = true,
+		Crouch = true,
+		ToggleWalk = true,
+		Reload = true,
+		Menu = true,
+		Shop = true,
+		ToggleScoreboard = true,
+		Ping = true,
+		Chat = true,
+		VIP = true
+	},
+	BUTTONS_WITH_EXPLICIT_HANDLERS = {
+		SwapTeam = true,
+		Inspect = true,
+		Crouch = true,
+		ToggleWalk = true,
+		Reload = true,
+		Jump = true,
+		Shop = true,
+		ToggleScoreboard = true,
+		Menu = true,
+		Ping = true,
+		Chat = true,
+		VIP = true
+	},
+	BUTTONS_WITH_CAMERA_DRAG = { AlternativeAction = true, Interact = true, Shoot = true }
+}

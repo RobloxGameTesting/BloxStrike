@@ -1,0 +1,41 @@
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+require(ReplicatedStorage.Database.Custom.Types)
+return table.freeze({
+	HasSuppressor = false,
+	Automatic = false,
+	Droppable = true,
+	HasScope = true,
+	Slot = "Primary",
+	WallbangMultiplier = 0.98,
+	Class = "Weapon",
+	ShootingOptions = "Default",
+	Team = "Both",
+	AimingOptions = "SniperScope",
+	Type = "Rifle",
+	MuzzleType = "Sniper",
+	ReverseIcon = "rbxassetid://78589610778527",
+	Icon = "rbxassetid://79794264811775",
+	Cost = 4750,
+	InventoryIconData = { ScaleType = Enum.ScaleType.Crop, Size = UDim2.fromScale(1, 1) },
+	BulletsPerShot = 1,
+	FireRate = 1.46,
+	Range = 1200,
+	RangeModifier = 0.99,
+	ArmorPenetration = 0.975,
+	Penetration = 0.9,
+	Spread = {
+		Range = NumberRange.new(0, 20),
+		PerShot = 0,
+		RecoverySpeed = 5,
+		MovementMultiplier = 3
+	},
+	WalkSpeed = 16.16,
+	RagdollMultiplier = 60,
+	DamagePerPart = { Torso = 143, Head = 459, Arms = 115, Legs = 85 },
+	ReloadAnimationCount = 1,
+	Capacity = 30,
+	Rounds = 5,
+	CharacterAnimations = ReplicatedStorage.Assets.WeaponAnimations.AWP.CharacterAnimations,
+	CameraAnimations = ReplicatedStorage.Assets.WeaponAnimations.AWP.CameraAnimations,
+	ShowCrosshair = false
+})
